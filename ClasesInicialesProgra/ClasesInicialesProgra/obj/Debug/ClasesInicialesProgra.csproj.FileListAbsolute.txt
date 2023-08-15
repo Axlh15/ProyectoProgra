@@ -1,0 +1,7 @@
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ClasesInicialesProgra\bin\Debug\ClasesInicialesProgra.exe.config
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ClasesInicialesProgra\bin\Debug\ClasesInicialesProgra.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ClasesInicialesProgra\bin\Debug\ClasesInicialesProgra.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ClasesInicialesProgra\obj\Debug\ClasesInicialesProgra.csproj.AssemblyReference.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ClasesInicialesProgra\obj\Debug\ClasesInicialesProgra.csproj.CoreCompileInputs.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ClasesInicialesProgra\obj\Debug\ClasesInicialesProgra.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ClasesInicialesProgra\obj\Debug\ClasesInicialesProgra.pdb
