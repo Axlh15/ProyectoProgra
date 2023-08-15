@@ -1,0 +1,59 @@
+ C#
+	*Lenguaje de objetos (objetos tienen características y comparten caracteristicas entre objetos, puede haber objetos individuales pero identicos)
+
+P.O.O Programacion orientada a objetos
+	*Representa objetos del mundo
+	*Abstrae sus características (que define al objeto)
+	*Crea instancias (Instancia es analago a objeto)
+P.O.C Programacion orientada a componentes
+	modelar,codigo, para modelar se usan diagramas de clase (UML, Lenguaje unificado de modelado)
+	Clase: Abstracción, Plantilla (Caracteristicas generales que tiene un objeto de esa clasificación)
+	Objeto: Instancia, Materialización
+	
+	DIAGRAMS DE CLASES (RECTANGULO, NOMBRE DE LA CLASE(1ERAPARTE),ATRIBUTOS O PROPIEDADES(2NDAPARTE), METODOS o ACCIONES(3RAPARTE)) = Abstracción de monitor= Generalizacion sin valores
+
+	Nombre de clase debe de estar en singular
+		Clase Monitor:
+			*Resolución
+			*Tamaño
+			*Color
+			*Peso
+			*Panel
+				*Mostrar una imagen
+				*Apagarlo
+				*Encender
+
+	DIAGRAMA DE OBJETO SE REPRESENTA DE FORMA SIMILAR (RECTANGULO) = MATERIALIZACION DE CLASE, CON CARACTERISTICAS PARTICULARES Y VALORES EN LOS ATRIBUTOS= INSTANCIA
+
+		MiMonitor
+			*Resolución:1920x1080
+			*Tamaño: 32"
+			*Color: Negro
+			*Peso: 3kg
+			*Panel: LCD
+
+
+
+
+
+
+	Public class un simbolo o una palabra que solo se puede ocupar para un propósito	El bloque sabe a que clase pertenece pq está inmediato despues del nombre de clase
+	Atributos se colocan como variables publicas (similares pero no iguales)
+int, entero, float, decimales (Tipos elementales)		Color color; (Clase de color)
+
+		Public class DispositivoMovil
+		{
+			int ram;
+			int almacenamiento;
+			float tamaño;
+			int resoluAncho;
+			int resoluAlto;
+			Color color;
+		//Faltan Métodos
+
+
+
+
+		}
+
+
