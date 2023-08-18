@@ -1,0 +1,7 @@
+D:\Github\ProyectoProgra\Tareaprogra\Tareaprogra\bin\Debug\Tareaprogra.exe.config
+D:\Github\ProyectoProgra\Tareaprogra\Tareaprogra\bin\Debug\Tareaprogra.exe
+D:\Github\ProyectoProgra\Tareaprogra\Tareaprogra\bin\Debug\Tareaprogra.pdb
+D:\Github\ProyectoProgra\Tareaprogra\Tareaprogra\obj\Debug\Tareaprogra.csproj.AssemblyReference.cache
+D:\Github\ProyectoProgra\Tareaprogra\Tareaprogra\obj\Debug\Tareaprogra.csproj.CoreCompileInputs.cache
+D:\Github\ProyectoProgra\Tareaprogra\Tareaprogra\obj\Debug\Tareaprogra.exe
+D:\Github\ProyectoProgra\Tareaprogra\Tareaprogra\obj\Debug\Tareaprogra.pdb
