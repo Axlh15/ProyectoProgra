@@ -23,7 +23,9 @@ namespace ClasesInicialesProgra
             miIphone.color.verde = 210;
 
             DispositivoMovil tabletSamsung = new DispositivoMovil();
-            tabletSamsung.color = 256;
+            tabletSamsung.color.rojo = 30;
+            tabletSamsung.color.verde = 60;
+            tabletSamsung.color.azul = 150;
             tabletSamsung.almacenamiento = 256;
             tabletSamsung.ram = 8;
             tabletSamsung.resoluAlto = 1080;
@@ -39,6 +41,7 @@ namespace ClasesInicialesProgra
             Huaweiphone.color.rojo = 50;
             Huaweiphone.color.verde = 100;
             Huaweiphone.color.azul = 37;
+
         }
     }
 }
