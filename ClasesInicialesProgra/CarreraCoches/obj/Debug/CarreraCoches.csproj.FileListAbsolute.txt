@@ -5,3 +5,10 @@ D:\Github\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCo
 D:\Github\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCoches.csproj.CoreCompileInputs.cache
 D:\Github\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCoches.exe
 D:\Github\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCoches.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\bin\Debug\CarreraCoches.exe.config
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\bin\Debug\CarreraCoches.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\bin\Debug\CarreraCoches.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCoches.csproj.AssemblyReference.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCoches.csproj.CoreCompileInputs.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCoches.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\CarreraCoches\obj\Debug\CarreraCoches.pdb
