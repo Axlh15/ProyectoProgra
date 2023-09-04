@@ -158,7 +158,7 @@ namespace Ejemplos//Declaración de espacio de nombres Ejemplos
             {
                 string nota = "Mi";//Declaración de variable local dentro del bloque condicional if
             }
-            else if (numeroCuerda == 5)
+            else if (numeroCuerda == 5)//Declaración de bloque condicional else if dentro de método TocarCuerda
             {
                 string nota = "La";//Declaración de variable local dentro de bloque condicional if
             }
