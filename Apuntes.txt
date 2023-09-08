@@ -1,0 +1,18 @@
+un arreglo int edad= 21;//singular	int[] edades= {0,1,2,3,4,5};//plural (declaración explícita:todos los valores que van a estar están definidos)
+						
+es una estructura de datos
+lineal en un mismo nivel la info
+estática, una vez definida, en tiempo de ejecución no se puede quitar o sumar datos, pero si modificar 	
+es una colección
+
+//arreglos sirven para cualquier tipo de datos (float, string,bool...) y para objetos también (Auto[] autos;)
+float[] alturas = new float[20];//declaración implícita, los elementos los puedo colocar después
+string[] ciudades ;//sin inicializar, genera error	
+
+
+Proyecto nuevo NombresArreglo
+nueva clase GeneradorNombres
+dentro de la clase habrán atributos de tipo arreglo de cadenas
+Método que se llame generar(int, int , int)
+	dentro de este escribir un console.writeline(...nombre...)
+probarlo en Main
