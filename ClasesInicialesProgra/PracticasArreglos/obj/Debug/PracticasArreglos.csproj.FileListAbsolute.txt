@@ -1,0 +1,7 @@
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\PracticasArreglos\bin\Debug\PracticasArreglos.exe.config
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\PracticasArreglos\bin\Debug\PracticasArreglos.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\PracticasArreglos\bin\Debug\PracticasArreglos.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\PracticasArreglos\obj\Debug\PracticasArreglos.csproj.CoreCompileInputs.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\PracticasArreglos\obj\Debug\PracticasArreglos.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\PracticasArreglos\obj\Debug\PracticasArreglos.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\PracticasArreglos\obj\Debug\PracticasArreglos.csproj.AssemblyReference.cache
