@@ -10,6 +10,12 @@ namespace ArregloNombres
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Flower Child Name");
+            NombresGenerador childName = new NombresGenerador();
+
+            childName.generar(6, 1, 8);
+
+            Console.ReadLine();
         }
     }
 }

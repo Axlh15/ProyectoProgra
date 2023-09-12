@@ -1,0 +1,7 @@
+D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\bin\Debug\ArregloNombres.exe.config
+D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\bin\Debug\ArregloNombres.exe
+D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\bin\Debug\ArregloNombres.pdb
+D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.csproj.AssemblyReference.cache
+D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.csproj.CoreCompileInputs.cache
+D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.exe
+D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.pdb
