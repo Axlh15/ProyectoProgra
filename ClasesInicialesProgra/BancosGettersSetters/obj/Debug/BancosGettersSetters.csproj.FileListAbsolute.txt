@@ -1,0 +1,7 @@
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\BancosGettersSetters\bin\Debug\BancosGettersSetters.exe.config
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\BancosGettersSetters\bin\Debug\BancosGettersSetters.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\BancosGettersSetters\bin\Debug\BancosGettersSetters.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\BancosGettersSetters\obj\Debug\BancosGettersSetters.csproj.AssemblyReference.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\BancosGettersSetters\obj\Debug\BancosGettersSetters.csproj.CoreCompileInputs.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\BancosGettersSetters\obj\Debug\BancosGettersSetters.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\BancosGettersSetters\obj\Debug\BancosGettersSetters.pdb

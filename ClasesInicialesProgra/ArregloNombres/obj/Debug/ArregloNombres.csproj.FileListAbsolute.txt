@@ -5,3 +5,10 @@ D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloN
 D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.csproj.CoreCompileInputs.cache
 D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.exe
 D:\Github\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\bin\Debug\ArregloNombres.exe.config
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\bin\Debug\ArregloNombres.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\bin\Debug\ArregloNombres.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.csproj.AssemblyReference.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.csproj.CoreCompileInputs.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\ClasesInicialesProgra\ArregloNombres\obj\Debug\ArregloNombres.pdb

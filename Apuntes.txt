@@ -16,3 +16,20 @@ dentro de la clase habrán atributos de tipo arreglo de cadenas
 Método que se llame generar(int, int , int)
 	dentro de este escribir un console.writeline(...nombre...)
 probarlo en Main
+
+
+MODIFICADORES DE VISIBILIDAD
+
+private
+public
+protected clases hijas
+default clases hermanas (clases dentro del mismo namespace)
+
+ENCAPSULAMIENTO: patrón de programacion donde los atributos son privados y colocamos metodos controlados para acceder (setter y getters)
+
+Cuenta Bancaria
+-saldo:numérico
+
+
++get Saldo ()
++set Saldo ()

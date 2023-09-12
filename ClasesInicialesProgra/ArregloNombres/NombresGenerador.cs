@@ -8,35 +8,35 @@ namespace ArregloNombres
 {
     public class NombresGenerador
     {
-        public string[] firstLetterName = { "breezy", "wild", "roaming", "sweet", "lush", "happy", "free", "spirited", "young" };
-        public string[] colorShirt = { "mountain", "river", "sun", "oak", "vine", "bud", "wind", "stone", "tide" };
-        public string[] firstLetterLastName = { "gypsy", "dancer", "yogi", "warrior", "soul", "hippie", "wanderer", "spirit", "treehugger" };
+        public string[] natures = { "breezy", "wild", "roaming", "sweet", "lush", "happy", "free", "spirited", "young" };
+        public string[] objects = { "mountain", "river", "sun", "oak", "vine", "bud", "wind", "stone", "tide" };
+        public string[] roles = { "gypsy", "dancer", "yogi", "warrior", "soul", "hippie", "wanderer", "spirit", "treehugger" };
 
         public void generar(int slot1, int slot2, int slot3)
         {
             Console.WriteLine(" ");
-            Console.WriteLine("First Letter Name");
-            for (int i = 0; i < firstLetterName.Length; i++)
+            //Console.WriteLine("First Letter Name");
+            //for (int i = 0; i < natures.Length; i++)
             {
-                Console.WriteLine(i + ".-" + firstLetterName[i]);
+                //Console.WriteLine(i + ".-" + natures[i]);
             }
 
-            Console.WriteLine(" ");
-            Console.WriteLine("Color Shirt");
-            for (int i = 0; i < colorShirt.Length; i++)
+            //Console.WriteLine(" ");
+            //Console.WriteLine("Color Shirt");
+            //for (int i = 0; i < objects.Length; i++)
             {
-                Console.WriteLine(i + ".-" + colorShirt[i]);
+                //Console.WriteLine(i + ".-" + objects[i]);
             }
 
-            Console.WriteLine(" ");
-            Console.WriteLine("First Letter of your Last Name");
-            for (int i = 0; i < firstLetterLastName.Length; i++)
+            //Console.WriteLine(" ");
+            //Console.WriteLine("First Letter of your Last Name");
+            //for (int i = 0; i < roles.Length; i++)
             {
-                Console.WriteLine(i + ".-" + firstLetterLastName[i]);
+                //Console.WriteLine(i + ".-" + roles[i]);
             }
 
-            Console.WriteLine(" ");
-            Console.WriteLine(firstLetterName[slot1] + " " + colorShirt[slot1] + " " + firstLetterLastName[slot3]);
+            //Console.WriteLine(" ");
+            Console.WriteLine(natures[slot1] + " " + objects[slot1] + " " + roles[slot3]);
             
         }
     }

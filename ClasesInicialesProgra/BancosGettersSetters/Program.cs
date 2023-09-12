@@ -4,17 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ArregloNombres
+namespace BancosGettersSetters
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Flower Child Name:");
-            NombresGenerador childName = new NombresGenerador();
-
-            childName.generar(7, 1, 3);
-
+            
             Console.ReadLine();
         }
     }
