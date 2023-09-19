@@ -5,6 +5,7 @@ using UnityEngine;
 public class ControladorJugador : MonoBehaviour
 {
     public float velocidadCaminar = 5;
+    public float fuerzaSalto = 5;
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
     // Start is called before the first frame update
@@ -20,7 +21,7 @@ public class ControladorJugador : MonoBehaviour
         float velVert = miCuerpo.velocity.y;
 
         float movHoriz = Input.GetAxis("Horizontal");
-
+        
         if (movHoriz > 0)
         {//se mueve a la derecha
             transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -38,7 +39,13 @@ public class ControladorJugador : MonoBehaviour
             miCuerpo.velocity = new Vector3(0, velVert, 0);
             miAnimador.SetBool("CAMINANDO", false);
         }
+        if (Input.GetButtonDown("Jump"))
+        {
+            miCuerpo.AddForce(new Vector3(0,fuerzaSalto), ForceMode2D.Impulse);
+            
+        }
 
-        
+        miAnimador.SetFloat("VEL_VERT", velVert);
+
     }
 }
