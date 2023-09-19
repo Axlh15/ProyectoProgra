@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ArregloNombres
+namespace BancosGettersSetters
 {
     class CuentaBancaria
     {
         private int pin;
         private int saldo;
 
-        public void setPin(int pin)
+        public void setPin(int pinNum)
         {
-            pin = ;
+            pin = pinNum;
         }
 
         public int getPin()
@@ -21,16 +21,16 @@ namespace ArregloNombres
             return pin;
         }
 
-        public void setSaldo(int saldo)
+        public void setSaldo(int saldoNum)
         {
-            saldo = ;
+            saldo = saldoNum;
         }
 
         public int getSaldo()
         {
             if (pin > 0)
             {
-                return saldo;
+           
 
 
             }
@@ -38,7 +38,7 @@ namespace ArregloNombres
             {
                 Console.Write("El saldo no pudo ser recuperado");
             }
-            
+            return saldo;
         }
     }
 }

@@ -1,7 +1,0 @@
-C:\Users\diana.roqueh\Documents\GitHub\proyectosprogra-main\ClasesIniciales\CarreradeCoches\bin\Debug\CarreradeCoches.exe.config
-C:\Users\diana.roqueh\Documents\GitHub\proyectosprogra-main\ClasesIniciales\CarreradeCoches\bin\Debug\CarreradeCoches.exe
-C:\Users\diana.roqueh\Documents\GitHub\proyectosprogra-main\ClasesIniciales\CarreradeCoches\bin\Debug\CarreradeCoches.pdb
-C:\Users\diana.roqueh\Documents\GitHub\proyectosprogra-main\ClasesIniciales\CarreradeCoches\obj\Debug\CarreradeCoches.csproj.AssemblyReference.cache
-C:\Users\diana.roqueh\Documents\GitHub\proyectosprogra-main\ClasesIniciales\CarreradeCoches\obj\Debug\CarreradeCoches.csproj.CoreCompileInputs.cache
-C:\Users\diana.roqueh\Documents\GitHub\proyectosprogra-main\ClasesIniciales\CarreradeCoches\obj\Debug\CarreradeCoches.exe
-C:\Users\diana.roqueh\Documents\GitHub\proyectosprogra-main\ClasesIniciales\CarreradeCoches\obj\Debug\CarreradeCoches.pdb

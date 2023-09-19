@@ -10,7 +10,13 @@ namespace BancosGettersSetters
     {
         static void Main(string[] args)
         {
-            
+            CuentaBancaria cuentaUno = new CuentaBancaria();
+
+            cuentaUno.setPin(0);
+            cuentaUno.getPin();
+
+            cuentaUno.setSaldo(751);
+            cuentaUno.getSaldo();
             Console.ReadLine();
         }
     }
