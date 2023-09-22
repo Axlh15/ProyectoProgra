@@ -5,7 +5,11 @@ using UnityEngine;
 public class ControladorJugador : MonoBehaviour
 {
     public float velocidadCaminar = 5;
-    public float fuerzaSalto = 5; 
+    public float fuerzaSalto = 8;
+    public bool enPiso = false;
+    public int saltosUsados = 0;
+    public int saltosTotal = 0;
+
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
     // Start is called before the first frame update
@@ -18,6 +22,8 @@ public class ControladorJugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //lo primero que hago en el pudate es detectar el piso
+        detectarPiso();
         float velVert = miCuerpo.velocity.y;
 
         float movHoriz = Input.GetAxis("Horizontal");
@@ -40,12 +46,29 @@ public class ControladorJugador : MonoBehaviour
             miAnimador.SetBool("CAMINANDO", false);
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (enPiso == true && saltosUsados < 2 && Input.GetButtonDown("Jump"))
         {
+            saltosUsados++;
+            saltosTotal = 2;
+            if (saltosTotal > 0) 
+            {
+                Input.GetButtonDown("Jump"))
+            }
 
+            //if (saltosUsados)saltosTotal--;
+            
             miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);    
         }
+        
         miAnimador.SetFloat("VEL_VERT", velVert);
         
+    }//fin de update
+
+    void detectarPiso()
+    {
+        //                     origen       direccion      distancia
+        enPiso = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
+
     }
-}
+
+}//fin clase
