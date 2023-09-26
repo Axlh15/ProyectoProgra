@@ -1,0 +1,7 @@
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\EjercicioConstructores\EjercicioConstructores\bin\Debug\EjercicioConstructores.exe.config
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\EjercicioConstructores\EjercicioConstructores\bin\Debug\EjercicioConstructores.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\EjercicioConstructores\EjercicioConstructores\bin\Debug\EjercicioConstructores.pdb
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\EjercicioConstructores\EjercicioConstructores\obj\Debug\EjercicioConstructores.csproj.AssemblyReference.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\EjercicioConstructores\EjercicioConstructores\obj\Debug\EjercicioConstructores.csproj.CoreCompileInputs.cache
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\EjercicioConstructores\EjercicioConstructores\obj\Debug\EjercicioConstructores.exe
+C:\Users\axel.huertaca\Documents\GitHub\ProyectoProgra\EjercicioConstructores\EjercicioConstructores\obj\Debug\EjercicioConstructores.pdb

@@ -40,3 +40,46 @@ limitar el salto utilzando el booleano enPiso
 condicionar a solo saltar si enPiso es true
 agregar contador de saltos, si estan en el piso el contador de saltos vale 2, cada salto q se de disminuye el contador en uno
 condicionar el salto a que unicamente funcione si el contador es mayor a 0 
+
+
+
+CONSTRUCTOR= Tipo especial de mètodo que se ejecuta al instanciar durante proceso de instanciacion (de clase a objeto) existe una construcciòn (define el estado inicial del objeto) Se llama igual a la clase No tiene tipo de retorno
+
+Producto//clase
+precio//objetos
+marca
+Producto()//constructor se llama igual a la clase
+describir()//mètodos
+vender()
+
+Para declarar constructor 
+public string describir()//devuelve string 
+public void vender()//no devuelve nada
+public Producto()
+
+INSTRUCCIONES
+2 CLASES MAS UNA CIRUCLO OTRA TRIANGULO
+AGREGAR ATRIBUTOS CORRESPONDIENTES
+CADA CLASE DEBE TENER UN CONSTRUCTOR QUE RECIBA LOS PARAMETROS NECESARIOS PARA HACER ESAS FIGURAS, CIRCULO RADIO, TRIANGULO Y ALTURA
+AGREGAR METODO QUE CALCULE PERIMETRO 
+PROBAR EN MAIN HACIENDO 2 CIRCULOS Y 2 TRIANGULOS
+
+agregar 4 clmas
+Producto
+precio
+obtener precio con iva
+
+Zapato
+Color
+talla
+describir zapato
+
+Persona
+año de nacimiento
+obtener edad
+
+Email
+subject
+contenido
+destinatario
+leer mail
