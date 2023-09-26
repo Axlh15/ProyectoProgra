@@ -7,7 +7,6 @@ public class ControladorJugador : MonoBehaviour
     public float velocidadCaminar = 5;
     public float fuerzaSalto = 8;
     public bool enPiso = false;
-    public int saltosUsados = 0;
     public int saltosTotal = 0;
 
     private Rigidbody2D miCuerpo;
@@ -46,18 +45,19 @@ public class ControladorJugador : MonoBehaviour
             miAnimador.SetBool("CAMINANDO", false);
         }
 
-        if (enPiso == true && saltosUsados < 2 && Input.GetButtonDown("Jump"))
+        if (enPiso == true && Input.GetButtonDown("Jump"))//permite salto solo si enPiso es true, asigna 2 saltos a saltosTotal y resta uno del contador con cada salto
         {
-            saltosUsados++;
             saltosTotal = 2;
-            if (saltosTotal > 0) 
-            {
-                Input.GetButtonDown("Jump"))
-            }
-
-            //if (saltosUsados)saltosTotal--;
             
-            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);    
+            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+
+            saltosTotal = saltosTotal - 1; 
+        }
+
+        else if (saltosTotal > 0 && Input.GetButtonDown("Jump")) // esto permite el segundo salto
+        {
+            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+            saltosTotal = saltosTotal - 1;
         }
         
         miAnimador.SetFloat("VEL_VERT", velVert);
