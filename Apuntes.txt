@@ -83,3 +83,12 @@ subject
 contenido
 destinatario
 leer mail
+
+GUI Graphic user interface HUD Head Up Display
+GUI{elemento informativo
+	decorativos
+		funcionales
+
+TAREA
+Mostrar la cantidad de vidas que tenga el heroe, el score, estatus del personaje(solo imagen pq no hay infor para mostrar)
+en esquina superior derecha va a mostrar barra del villano, usando el mismo scrip de controlador gui y de personaje, se llena al reves, el villano es un sprite e interfaz de personaje nada mas 
