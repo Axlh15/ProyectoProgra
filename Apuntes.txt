@@ -92,3 +92,14 @@ GUI{elemento informativo
 TAREA
 Mostrar la cantidad de vidas que tenga el heroe, el score, estatus del personaje(solo imagen pq no hay infor para mostrar)
 en esquina superior derecha va a mostrar barra del villano, usando el mismo scrip de controlador gui y de personaje, se llena al reves, el villano es un sprite e interfaz de personaje nada mas 
+
+
+Usando tilemaps agregar agua a todo lo largo del nivel
+a ese tilemap agregar un tilemap collider 
+crear script llamado "ZonaMuerta" y asignarlo al tilemap del agua
+en el script al detectar la colision(en metodo collision enter) detectar si hubo contacto con el player (lo mismo q la trampa) en caso de que sí, en el script de personaje invocar un
+metodo que se llame "muerteInstantanea" y en este metodo hay que reducir la vida del personaje a 0
+
+TAREA 
+
+Hacer que cuando nuestro personaje reciba daño muestre una partícula de sangre y que si llega a 0 su vida salga particula de muerte(corazon roto)
