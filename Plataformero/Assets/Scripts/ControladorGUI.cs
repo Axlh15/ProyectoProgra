@@ -5,9 +5,15 @@ using UnityEngine.UI;
 
 public class ControladorGUI : MonoBehaviour
 {
-    public Personaje Heroe;
-    public Text EtiquetaHeroe;
-    public Image BarraHPHeroe;
+    public Personaje heroe;
+    public Text etiquetaHeroe;
+    public Image barraHPHeroe;
+    public Text etiquetaEnemigo;
+    public Image barraHPEnemigo;
+    public Text scoreHeroe;
+    public Text vidasHeroe;
+    public Text textoVidas;
+    public Personaje enemigo;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +24,20 @@ public class ControladorGUI : MonoBehaviour
     void Update()
     {
         //muestro en texto el hp
-        EtiquetaHeroe.text = Heroe.hp + "/" + Heroe.hpMax;
+        etiquetaHeroe.text = heroe.hp + "/" + heroe.hpMax;
 
-        float porcentajeHPHeroe = Heroe.hp / (float)Heroe.hpMax;
-        BarraHPHeroe.fillAmount = porcentajeHPHeroe;
+        float porcentajeHPHeroe = heroe.hp / (float)heroe.hpMax;
+        barraHPHeroe.fillAmount = porcentajeHPHeroe;
+
+        scoreHeroe.text = heroe.score + "";
+
+        vidasHeroe.text = heroe.vidas + "";
+
+        textoVidas.text = "Vidas";
+
+        etiquetaEnemigo.text = enemigo.hp + "/" + enemigo.hpMax;
+        float porcentajeHPEnemigo = enemigo.hp / (float)enemigo.hpMax;
+        barraHPEnemigo.fillAmount = porcentajeHPEnemigo;
+
     }
 }
