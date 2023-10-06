@@ -204,3 +204,5 @@ MonoBehaviour:
   hpMax: 100
   vidas: 3
   score: 0
+  playerEfectos: {fileID: 0}
+  corazonMuertePrefab: {fileID: 6855314210357232287, guid: 7c2a9b83b809a0848915fabd9596b68b, type: 3}
