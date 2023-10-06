@@ -224,6 +224,8 @@ MonoBehaviour:
   hpMax: 100
   vidas: 1
   score: 0
+  playerEfectos: {fileID: 0}
+  corazonMuertePrefab: {fileID: 0}
 --- !u!114 &88088249 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6409500471678798169, guid: 54b2176e8906c4b4a9a6b917401aba54, type: 3}
@@ -497,6 +499,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1595854902}
     m_Modifications:
+    - target: {fileID: 1869939130212828366, guid: 7e613fa6aa737e547850baf801454fa7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.09215021
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869939130212828366, guid: 7e613fa6aa737e547850baf801454fa7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.09215021
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869939130212828366, guid: 7e613fa6aa737e547850baf801454fa7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2924528
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998715303378986263, guid: 7e613fa6aa737e547850baf801454fa7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.054289784
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998715303378986263, guid: 7e613fa6aa737e547850baf801454fa7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.054289784
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998715303378986263, guid: 7e613fa6aa737e547850baf801454fa7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.23584908
+      objectReference: {fileID: 0}
     - target: {fileID: 3306838109555181690, guid: 7e613fa6aa737e547850baf801454fa7, type: 3}
       propertyPath: m_Name
       value: Vidas
@@ -4517,6 +4543,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5182731332747444538, guid: 12cfe612d7e6f174cb30217a8f6a7212, type: 3}
+      propertyPath: splashSangrePrefab
+      value: 
+      objectReference: {fileID: 4553287630450876385, guid: 15483e51212e3d74886ea57291f4639a, type: 3}
     - target: {fileID: 7174009499970377211, guid: 12cfe612d7e6f174cb30217a8f6a7212, type: 3}
       propertyPath: m_Name
       value: TrampaHuesos
@@ -15978,6 +16008,14 @@ PrefabInstance:
       propertyPath: hp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 5522659699909603011, guid: f13a9ae2da662694a86bd11e0f50faef, type: 3}
+      propertyPath: playerEfectos
+      value: 
+      objectReference: {fileID: 1824725626}
+    - target: {fileID: 5522659699909603011, guid: f13a9ae2da662694a86bd11e0f50faef, type: 3}
+      propertyPath: corazonMuertePrefab
+      value: 
+      objectReference: {fileID: 6855314210357232287, guid: 7c2a9b83b809a0848915fabd9596b68b, type: 3}
     - target: {fileID: 6784815368273471846, guid: f13a9ae2da662694a86bd11e0f50faef, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.38
