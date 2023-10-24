@@ -11,11 +11,13 @@ public class ControladorJugador : MonoBehaviour
 
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
+    private EfectosSonoros misSonidos;
     // Start is called before the first frame update
     void Start()
     {
         miCuerpo = GetComponent<Rigidbody2D>();
         miAnimador = GetComponent<Animator>();
+        misSonidos = GetComponent<EfectosSonoros>();
     }
 
     // Update is called once per frame
@@ -51,13 +53,15 @@ public class ControladorJugador : MonoBehaviour
             
             miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
 
-            saltosTotal = saltosTotal - 1; 
+            saltosTotal = saltosTotal - 1;
+            misSonidos.reproducir("salto");
         }
 
         else if (saltosTotal > 0 && Input.GetButtonDown("Jump")) // esto permite el segundo salto
         {
             miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
             saltosTotal = saltosTotal - 1;
+            misSonidos.reproducir("salto");
         }
         
         miAnimador.SetFloat("VEL_VERT", velVert);

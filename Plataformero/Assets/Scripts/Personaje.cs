@@ -12,10 +12,13 @@ public class Personaje : MonoBehaviour
     public int score = 0;
 
     public GameObject corazonMuertePrefab;
+    public Animator miAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
+        GetComponent<Animator>();
+        //misSonidos = GetComponent<EfectosSonoros>;
 
     }
 
@@ -43,6 +46,9 @@ public class Personaje : MonoBehaviour
             GameObject efectoMuerte = Instantiate(corazonMuertePrefab);
             //coloco la particula en la posicion del cavernicola
             efectoMuerte.transform.position = elPersonn.transform.position;
+
+            miAnimator.SetTrigger("Danio");
+            //misSonidos.Reproducir("Daniar");
 
 
 
