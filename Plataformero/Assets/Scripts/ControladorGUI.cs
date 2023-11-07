@@ -14,6 +14,8 @@ public class ControladorGUI : MonoBehaviour
     public Text vidasHeroe;
     public Text textoVidas;
     public Personaje enemigo;
+    public GameObject GameOver;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,7 @@ public class ControladorGUI : MonoBehaviour
 
         scoreHeroe.text = heroe.score + "";
 
-        vidasHeroe.text = heroe.vidas + "";
+        vidasHeroe.text = Personaje.vidas + "";
 
         textoVidas.text = "Vidas";
 
@@ -39,5 +41,11 @@ public class ControladorGUI : MonoBehaviour
         float porcentajeHPEnemigo = enemigo.hp / (float)enemigo.hpMax;
         barraHPEnemigo.fillAmount = porcentajeHPEnemigo;
 
+
+        if (heroe.gameOver())
+        {
+            GameOver.SetActive(true);
+        }
     }
+
 }

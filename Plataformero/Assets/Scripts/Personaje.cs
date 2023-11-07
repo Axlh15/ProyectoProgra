@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class Personaje : MonoBehaviour
 {
     public int hp = 100;
     public int hpMax = 100;
-    public int vidas = 3;
+    public static int vidas = 3;
+    public int vidasMax = 3;
     public int score = 0;
     public bool bloqueado = false;
     private Personaje miPersonaje;
@@ -22,7 +22,7 @@ public class Personaje : MonoBehaviour
     void Start()
     {
         miAnimador = GetComponent<Animator>();
-        //misSonidos = GetComponent<EfectosSonoros>;
+        //misSonidos = GetComponent<EfectosSonoros>();
         miPersonaje = GetComponent<Personaje>();
 
     }

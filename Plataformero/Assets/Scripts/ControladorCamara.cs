@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class ControladorCamara : MonoBehaviour
 {
-    public GameObject jugador;
-    // Start is called before the first frame update
+    public Personaje cavernicola;
     void Start()
     {
-        
+        cavernicola = GetComponent<Personaje>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(jugador.transform.position.x, jugador.transform.position.y, transform.position.z);
+
+        bool puedoMoverme = cavernicola.estaVivo() && !cavernicola.bloqueado;
+
+        if (puedoMoverme)
+        {
+            transform.position = new Vector3(
+            cavernicola.transform.position.x, //la pos x de la camara   
+            cavernicola.transform.position.y, // la pos y  
+             -1); //la pos z
+        }
     }
 }

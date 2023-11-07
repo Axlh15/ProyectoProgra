@@ -5,8 +5,14 @@ using UnityEngine;
 public class ZonaMuerta : MonoBehaviour
 {
     public GameObject splashAguaPrefab;
-    
-    
+    private EfectosSonoros misSonidos;
+
+    void Start()
+    {
+        misSonidos = GetComponent<EfectosSonoros>();
+    }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {//este metodo se ejecuta cuando este objeto detecta una colision (NO HAY QUE CAMBIAR NADA)
         GameObject otroObjeto = collision.gameObject;
@@ -23,6 +29,7 @@ public class ZonaMuerta : MonoBehaviour
             //coloco la particula en la posicion del cavernicola
             efectoSplash.transform.position = elPerso.transform.position;
 
+            misSonidos.reproducir("splash");
 
 
         }
