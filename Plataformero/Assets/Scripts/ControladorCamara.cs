@@ -5,10 +5,7 @@ using UnityEngine;
 public class ControladorCamara : MonoBehaviour
 {
     public Personaje cavernicola;
-    void Start()
-    {
-        cavernicola = GetComponent<Personaje>();
-    }
+   
 
     // Update is called once per frame
     void Update()

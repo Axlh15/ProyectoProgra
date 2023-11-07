@@ -13,6 +13,7 @@ public class ControladorGUI : MonoBehaviour
     public Text scoreHeroe;
     public Text vidasHeroe;
     public Text textoVidas;
+    public Text textoCoins;
     public Personaje enemigo;
     public GameObject GameOver;
 
@@ -36,6 +37,8 @@ public class ControladorGUI : MonoBehaviour
         vidasHeroe.text = Personaje.vidas + "";
 
         textoVidas.text = "Vidas";
+        textoCoins.text = heroe.dinero + "";
+
 
         etiquetaEnemigo.text = enemigo.hp + "/" + enemigo.hpMax;
         float porcentajeHPEnemigo = enemigo.hp / (float)enemigo.hpMax;

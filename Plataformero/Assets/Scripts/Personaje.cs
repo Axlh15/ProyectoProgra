@@ -7,8 +7,8 @@ public class Personaje : MonoBehaviour
 {
     public int hp = 100;
     public int hpMax = 100;
-    public static int vidas = 3;
-    public int vidasMax = 3;
+    public static int vidas = 2;
+    public int vidasMax = 2;
     public int score = 0;
     public bool bloqueado = false;
     private Personaje miPersonaje;
@@ -17,6 +17,9 @@ public class Personaje : MonoBehaviour
     private EfectosSonoros misSonidos;
     public GameObject corazonMuertePrefab;
     public Animator miAnimador;
+
+    public int dinero = 0;
+
 
     // Start is called before the first frame update
     void Start()

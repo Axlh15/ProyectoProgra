@@ -434,8 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 70
   hpMax: 100
-  vidas: 3
-  vidasMax: 3
+  vidasMax: 1
   score: 0
   bloqueado: 0
   sangrePrefab: {fileID: 100000, guid: bc98890f6028f444eaa7789bde5e2eeb, type: 3}

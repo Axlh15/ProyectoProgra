@@ -103,3 +103,40 @@ metodo que se llame "muerteInstantanea" y en este metodo hay que reducir la vida
 TAREA 
 
 Hacer que cuando nuestro personaje reciba daño muestre una partícula de sangre y que si llega a 0 su vida salga particula de muerte(corazon roto)
+
+TAREA
+
+EXPOSICION
+
+elegir un genero y un juego iconico de ese genero no se puede repetir genero ni juego
+hacer presentacion general de q trata
+exponer desde un contexto tecnico, plataforma, lenguaje,motor grafico,
+ explicar minimo 3 mecanicas: que mecanicas son las que extraen del juego 
+(tratar de aterrizarlo con conceptos q ya sabemos, q se necesita para q pueda saltar, impulso/direccion,etc.) y como lo desarrolariamos nosotros hoy en dia si es q es viejo
+rango de 5 a 10 minutos
+no leer diapositivas, tener dominio del tema
+diapositivas como ayudas visuales pero no saturadas de texto, chance conceptos necesarios 
+organizaciòn en orden de turnos
+mitad de equipos martes y el resto el viernes, los q caigan, para el martes lista la exposicion
+
+
+descargar moneda y meterla a unity
+usar sprite editor para cortar la moneda de forma que queden de forma regular cada una de estas, slice y experimentar como funciona
+pivote debe estar bien al centro de cada una de estas
+insertar en escena de pruebas, agregandole su animacion de giro, si pivote esta mal se va a ver mal
+meterle collider tipo trigger y etiquetar el objeto como tesoro 
+implementar script que se llame tesoro
+va a tener un atributo llamado valor y el valor se suma a un contador que va a estar en personaje (script), donde habrà un atributo nuevo llamado dinero y a este se le suma el valor que tenga el tesoro
+en el ontrigger (script tesoro) hay que verificar si con quien tuvimos contacto es con Jugador y le sumamos a su contador 
+debe sonar como moneda
+debe de tener animacion de como se pierde la moneda utilizando animator
+1 que se haga traslucida conforme desaparece
+2 que se haga pequeñita
+3 flota
+4 se aviente a contador
+cuando toquen moneda el collider debe desactivarse para que solo se pueda consumir una vez la moneda
+hay que destruir la moneda (destroy(GameObject)) pero agregando un paràmetro de tiempo calculando el tiempo q tarda la moneda en hacer su animacion o usar invo
+
+item que cuando se consuma se mueva el doble de rapido durante 3 segundos, el item lo controla
+tocan el item, desaparece el item pero sigue existiendo durante 3 segundos e incrementa la velocidad del player, luego de esos 3 segundos y justo antes de dejar de existir le regresa
+la velocidad normal al jugador 
