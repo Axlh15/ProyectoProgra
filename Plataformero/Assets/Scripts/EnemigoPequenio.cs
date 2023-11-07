@@ -1,0 +1,151 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemigoPequeño : MonoBehaviour
+{
+
+    private Animator miAnimador;
+    private Rigidbody2D miCuerpo;
+    private EfectosSonoros misSonidos;
+    private GameObject heroeJugador;
+    public Personaje cavernicola;
+    private GameObject enemigo;
+    public GameObject sangrePrefab;
+    public bool cerca = false;
+    public float velocidadCaminar = 2;
+    public float rangoAgro = 6;
+
+
+    void Start()
+    {
+        miCuerpo = GetComponent<Rigidbody2D>();
+        miAnimador = GetComponent<Animator>();
+        misSonidos = GetComponent<EfectosSonoros>();
+        heroeJugador = GameObject.FindGameObjectWithTag("Player");
+        enemigo = GameObject.FindGameObjectWithTag("Enemigo");
+        cavernicola = GetComponent<Personaje>();
+    }
+
+    private void Update()
+    {
+
+        Vector3 miPos = this.transform.position;
+        Vector3 posHeroe = heroeJugador.transform.position;
+        float distanciaHeroe = (miPos - posHeroe).magnitude;
+
+        if(distanciaHeroe < rangoAgro)
+        {//el heroe esta dentro del area de agro
+
+            print(heroeJugador.name + " cerca de " + name);
+            cerca = true;
+            float posEnemigo = this.transform.position.x;
+
+            if (heroeJugador.transform.position.x < posEnemigo)
+            {
+                this.transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+
+            else
+            {
+                this.transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+
+
+        }
+
+
+        else
+        {
+            cerca = false;
+            print(" Enemigo lejos");
+        }
+
+        Personaje cavernicola = heroeJugador.GetComponent<Personaje>();
+
+        if (cerca == true && cavernicola.estaVivo())
+        {
+        miCuerpo.velocity = transform.right * velocidadCaminar;
+        miAnimador.SetBool("CAMINANDO", true);
+        }
+
+        else
+        {
+        miCuerpo.velocity = Vector3.zero;
+        miAnimador.SetBool("CAMINANDO", false);
+        }
+
+    }
+
+    //public void OnTriggerEnter2D(Collider2D collision)
+    //{
+        //GameObject otroObjeto = collision.gameObject;
+        //float posHeroe = otroObjeto.transform.position.x;
+        //float posEnemigo = this.transform.position.x;
+
+
+        //if (otroObjeto.tag == "Player")
+        //{
+            //print(" Enemigo cerca");
+            //cerca = true;
+
+            //if (posHeroe < posEnemigo)
+            //{
+                //this.transform.rotation = Quaternion.Euler(0, 180, 0);
+
+            //}
+
+            //else
+            //{
+                //this.transform.rotation = Quaternion.Euler(0, 0, 0);
+
+            //}
+        //}
+
+    //}
+
+
+    //public void OnTriggerExit2D(Collider2D collision)
+    //{
+        //GameObject otroObjeto = collision.gameObject;
+
+        //if (otroObjeto.tag == "Player")
+        //{
+            //cerca = false;
+            //print(" Enemigo lejos");
+
+        //}
+
+    //}
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Personaje cavernicola = heroeJugador.GetComponent<Personaje>();
+        GameObject otroObjeto = collision.gameObject;
+
+        if (otroObjeto.tag == "Player" && cavernicola.estaVivo())
+        {
+
+            print(name + " se hizo daño por" + collision.gameObject);
+            Personaje elPerso = otroObjeto.GetComponent<Personaje>();
+            elPerso.hacerDanio(20, this.gameObject);
+
+        }
+    }
+}
+
+//tarea
+//hacer 2 enemigos 
+//hacer otro enemigo agresivo
+//funcionar similar a como funciona el heroe
+//collider en donde sea que ataque, collider trigger, con ese vamos a detectar la collision
+//El enemigo se va a llamar "Enemigo Agresivo", enemigo que contiene un arma
+//mantener/replicar el comportamiento dentro del area agro
+//si esta dentro del area de ataque, se activa la animacion de ataque (trigeger)
+//el enemigo hace daño hara daño a traves del trigger
+//
+//
+//uno no se mueve
+//Ataqye
+//Uno se mueve
