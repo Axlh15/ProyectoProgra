@@ -16,18 +16,20 @@ public class Tesoro : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {//este metodo se ejecuta cuando este objeto detecta una colision (NO HAY QUE CAMBIAR NADA)
-        GameObject otroObjeto = collision.gameObject;
-        if (otroObjeto.tag == "Player")
+        GameObject Tesoro = collision.gameObject;
+        if (Tesoro.tag == "Player")
         {
-            print(name + " detecte colision con " + otroObjeto);
-            Personaje elPerso = otroObjeto.GetComponent<Personaje>();
+            print(name + " detecte colision con " + Tesoro);
+            Personaje elPerso = Tesoro.GetComponent<Personaje>();
             elPerso.dinero += valor;
             elPerso.score += exp;
 
             misSonidos.reproducir("collectcoin");
 
             miAnimador.SetTrigger("COLLECT");
-            Destroy (gameObject, 1);
+           
+            Destroy(gameObject, 1);
+
             valor = 0;
             exp = 0;
         }
