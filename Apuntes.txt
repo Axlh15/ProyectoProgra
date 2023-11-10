@@ -140,3 +140,12 @@ hay que destruir la moneda (destroy(GameObject)) pero agregando un paràmetro de
 item que cuando se consuma se mueva el doble de rapido durante 3 segundos, el item lo controla
 tocan el item, desaparece el item pero sigue existiendo durante 3 segundos e incrementa la velocidad del player, luego de esos 3 segundos y justo antes de dejar de existir le regresa
 la velocidad normal al jugador 
+
+colocar un objeto acorde al escenario
+animar el cofre haciendo que brille
+
+terminar trabajo en clase
+item veneno
+enemigos drop
+si tienes asignado un item en el atributo hay que instanciarlo, cuando se mueve el monstruo si tiene asignado un prefab en esa variable, solo cuando muere
+
